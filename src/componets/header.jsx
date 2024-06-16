@@ -21,10 +21,10 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className=" links flex gap-10 pt-4 font-[400px] text-[18px] font-Quicksand ">
+        <div className=" links flex gap-10 font-[400px] text-[18px] font-Quicksand ">
           <Links />
         </div>
-        <div className="flex justify-center mt-6  ">
+        <div className="flex justify-center   ">
           <a href="mailto:main@gmail.com">
             <button className="border hover:bg-[#377DFF] hover:text-white border-[#377DFF] sm:px-6 text-[14px] px-3  py-2 rounded-full mx-6">
               Contact us
