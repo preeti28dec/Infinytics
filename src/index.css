@@ -1,13 +1,421 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', 'Quicksand', sans-serif;
+}
+.container {
+  max-width: 1200px;
+}
+.icon_card{
+  width: 310px;
+  padding: 2%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.images {
+  width: 100%;
+  margin:auto ;
+  transition: transform 0.2s ease-in-out;
+}
+
+.images:hover {
+  transform: rotate(4deg);
+}
+.dots_img {
+  animation: rotation 60s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.blue_dots_image{
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  transform: rotate(346deg);
+  z-index: -1;
+}
+
+.blue_dots_{
+  position: absolute;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  transform: rotate(346deg);
+  z-index: -1;
+}
+.dots_image{
+  position: absolute;
+  margin-left: 17rem;
+  margin-top: 17rem;
+  z-index: -1;
+}
+
+.blue_dots {
+  animation: mover 3s infinite  alternate;
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.child{
+  animation:all 1s;
+}
+.child:hover{
+  transform: translateY(-10px) translateZ(0px);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  .links{
+    display: none;
+  }
+  .portfolio{
+  flex-direction: column;
+}
+
+.home_1rd_card{
+  display: none;
+}
+.home_3rd_card{
+  display: none;
+}
+
+.home_text{
+  font-size: 30px;
+}
+
+
+.main_about{
+  flex-direction:column-reverse;
+}
+.main_about_image{
+  width: 100%;
+  margin: 2rem;
+}
+.about_text{
+  font-size: 24px;
+}
+.about_text_card {
+  width: 100%;
+  font-size: 24px;
+}
+
+.serviced_text_card{
+  width: 100%;
+}
+.service_text{
+  font-size: 24px;
+}
+.service_card1{
+  flex-wrap: wrap;
+}
+.service_card2{
+  flex-wrap: wrap;
+}
+.service_card_text{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service_text{
+  align-items: center;
+}
+
+.our_service{
+  flex-direction: column;
+}
+
+
+.portfolio_text{
+  font-size: 24px;
+}
+
+.portfolio_dots_image{
+  display: none;
+}
+
+
+
+
+
+
+
+.testiminial{
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonial_dots_image{
+  display:none;
+  flex: unset;
+}
+.testimonial_card {
+width: 100%;
+margin-top: 3rem;
+}
+
+.blue_dots_{
+  position: absolute;
+  margin-right: 13rem;
+  margin-top: 4rem;
+  transform: rotate(346deg);
+  z-index: -1;
+}
+.dots_image{
+  position: absolute;
+  margin-left: 6rem;
+  margin-top: 7rem;
+  z-index: -1;
+}
+
+.main_getstrat{
+  flex-direction: column-reverse;
+}
+.get_start_text{
+  font-size: 14px;
+}
+.getstart_text{
+  font-size: 24px;
+  align-items: center;
+}
+.getstart_image{
+  flex: none;
+  width: 100%;
+  height: 250px;
+}
+.footer_hr{
+  width: auto;
+}
+.footer_icon{
+  gap: 10px;
+  margin-bottom: 0px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .links{
+    display: none;
+  }
+  .service_text{
+    align-items: center;
+  }
+ 
+  .our_service{
+    flex-direction: column;
+  }
+
+
+
+  .home_1rd_card{
+    display: none;
+  }
+  .home_3rd_card{
+    display: none;
+  }
+  
+  .home_text{
+    font-size: 30px;
+  }
+  
+  
+  .main_about{
+    flex-direction:column-reverse;
+  }
+  .main_about_image{
+    width: 100%;
+    margin: 2rem;
+  }
+  .about_text{
+    font-size: 24px;
+  }
+  .about_text_card {
+    width: 100%;
+    font-size: 24px;
+  }
+
+
+  .serviced_text_card{
+    width: 100%;
+  }
+  .service_text{
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .service_card1{
+    flex-wrap: wrap;
+  }
+  .service_card2{
+    flex-wrap: wrap;
+  }
+  .service_card_text{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .our_service{
+    flex-direction: column;
+  }
+
+
+
+  .portfolio_text{
+    font-size: 30px;
+  }
+
+  .portfolio{
+    flex-direction: column;
+  }
+  .portfolio_dots_image{
+    display:none;
+  }
+
+
+
+  .testiminial{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial_dots_image{
+    display:none;
+  }
+  .testimonial_card {
+  max-width: 100%;
+  margin-top: 3rem;
+  }
+  
+  .blue_dots_{
+    position: absolute;
+    margin-right: 13rem;
+    margin-top: 4rem;
+    transform: rotate(346deg);
+    z-index: -1;
+  }
+  .dots_image{
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 7rem;
+    z-index: -1;
+  }
+
+  .main_getstrat{
+    flex-direction: column-reverse;
+  }
+  
+  .get_start_text{
+    font-size: 14px;
+  }
+  .getstart_text{
+    font-size: 24px;
+    align-items: center;
+  }
+  .getstart_image{
+    flex: none;
+    width: 100%;
+    height: 380px;
+  }
+
+
+
+  
+  .footer_icon{
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  .footer_hr{
+    width: auto;
+  }
+}
+
+@media  only screen and (max-width:386px) {
+  .main_header{
+    display: block;
+    width: 100%;
+  }
+  .main_header1{
+    display: -webkit-box;
+  }
+
+  
+}
+.images > img {
+  margin: auto;
+} 
+.bm-burger-button {
+  
+  width: 36px;
+  height: 30px;
+  left: 36px;
+
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}  
+
+.bm-burger-bars-hover {
+  background: #a90000;
+
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 0.3rem 0.3rem 0;
+  font-size: 1.15em;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  width: 50%;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+/* styling next link component so that will be a column list of links*/
+.bm-item-list a {
+  display: flex;
+  flex-direction: column;
 }
