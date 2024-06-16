@@ -15,11 +15,11 @@ function HomePage() {
           enhancing user experiences, and driving innovation
         </div>
       </div>
-      <div className="text-center mt-10">
+      {/* <div className="text-center mt-10">
         <button className="bg-blue-500 text-white py-2 px-8 rounded-full">
           Start Project
         </button>
-      </div>
+      </div> */}
       <div className="w-[fit-content] mx-auto relative">
         <span className="home_1rd_card w-[fit-content] mx-auto bg-white py-5 px-4 rounded-2xl shadow-lg absolute z-10 top-36 left-[-120px]">
           <div className="flex my-2">
