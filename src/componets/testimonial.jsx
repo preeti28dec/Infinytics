@@ -14,8 +14,8 @@ function Testimonial() {
                     <div className='sm:flex  flex flex-col items-center gap-5'>
                         <div className=''><img src='../images/Pepople.png' width={80} alt='logo-error' /></div>
                         <div className='my-6 mx-4'>
-                            <div className='text-xl font-semibold text-[#377DFF]'>Angel Rose</div>
-                            <div className=' text-[#464646] text-xs font-Quicksand'>Creative Manager</div>
+                            <div className='text-xl font-semibold text-[#377DFF]'>Preeti Thakur</div>
+                            <div className=' text-[#464646] text-xs font-Quicksand'>Front-end Devloper</div>
                         </div>
                     </div>
                     <div className=' text-[#464646] font-normal text-lg  font-Quicksand'>There are many variations passages of Lorem Ipsum majority some by words which dont look . </div>
@@ -24,8 +24,8 @@ function Testimonial() {
                     <div className='sm:flex  flex flex-col items-center gap-5'>
                         <div className=''><img src='../images/Pepople.png' width={80} alt='logo-error' /></div>
                         <div className='my-6 mx-4'>
-                            <div className='text-xl font-semibold text-[#377DFF]'>Angel Rose</div>
-                            <div className=' text-[#464646] text-xs font-Quicksand'>Creative Manager</div>
+                            <div className='text-xl font-semibold text-[#377DFF]'>Sandeep pandya</div>
+                            <div className=' text-[#464646] text-xs font-Quicksand'>Back-end Devloper</div>
                         </div>
                     </div>
                     <div className='text-[#464646] font-normal text-lg  font-Quicksand'>There are many variations passages of Lorem Ipsum majority some by words which dont look . </div>
@@ -34,7 +34,7 @@ function Testimonial() {
                     <div className='sm:flex  flex flex-col items-center gap-5'>
                         <div className=''><img src='../images/Pepople.png' width={80} alt='logo-error' /></div>
                         <div className='my-6 mx-4'>
-                            <div className='text-xl font-semibold text-[#377DFF]'>Angel Rose</div>
+                            <div className='text-xl font-semibold text-[#377DFF]'>Rahul Jindani</div>
                             <div className=' text-[#464646] text-xs font-Quicksand'>Creative Manager</div>
                         </div>
                     </div>
