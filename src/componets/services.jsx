@@ -39,7 +39,7 @@ function Services() {
               </div>
               <div className='icon_card child'>
                 <div className=' flex justify-center'><img src='../images/icon4.png' alt='logind..' /></div>
-                <div className='text-center mt-6  text-sm md:text-xl sm:text-2xl font-Quicksand font-bold  text-[#1D1D1D]'>quality and security</div>
+                <div className='text-center mt-6  text-sm md:text-xl sm:text-2xl font-Quicksand font-bold  text-[#1D1D1D]'>Quality and Security</div>
                 <p className='text-[14px]'></p>             
               </div>
               <div className='icon_card child'>
