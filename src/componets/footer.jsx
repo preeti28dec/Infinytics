@@ -84,7 +84,6 @@ function Footer() {
           </div>
           <hr className="w-[500px] mx-auto  mt-4 footer_hr" />
           <div className="text-gray-300 text-[18px]  pb-20 mt-6 font-Quicksand text-center">
-            Copyright @ 2022 Agency Creative. All Right Reserve
           </div>
         </div>
       </div>
