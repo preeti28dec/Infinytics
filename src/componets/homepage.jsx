@@ -15,12 +15,18 @@ function HomePage() {
           enhancing user experiences, and driving innovation
         </div>
       </div>
+       <img
+            src="https://www.unite.ai/wp-content/uploads/2023/06/llm.jpg"
+            alt="Vercel Logo"
+            className="dark:invert"
+      />
+      
       {/* <div className="text-center mt-10">
         <button className="bg-blue-500 text-white py-2 px-8 rounded-full">
           Start Project
         </button>
       </div> */}
-      <div className="w-[fit-content] mx-auto relative">
+      {/* <div className="w-[fit-content] mx-auto relative">
         <span className="home_1rd_card w-[fit-content] mx-auto bg-white py-5 px-4 rounded-2xl shadow-lg absolute z-10 top-36 left-[-120px]">
           <div className="flex my-2">
             <img
@@ -59,7 +65,7 @@ function HomePage() {
             with them and will come back again thanks
           </div>
         </span>
-      </div>
+      </div>*/}
     </section>
   );
 }
