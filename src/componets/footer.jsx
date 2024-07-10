@@ -76,17 +76,12 @@ function Footer() {
         </div>
         <div className="">
           <div className="footer_icon flex justify-center gap-6 ">
-           <!-- <TbBrandFacebook className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full " />
-            <BsInstagram className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />
-             <FiTwitter className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />-->
              <a href="https://www.linkedin.com/company/infinytics/mycompany/verification/" target="_blank" rel="noopener noreferrer">
                 <FiLinkedin className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />
               </a>
               <a href="mailto:info@infinytics.com">
                 <HiOutlineMail className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />
               </a> 
-            <FiLinkedin className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />
-            <HiOutlineMail className="border border-white text-5xl px-2 text-gray-800 bg-white rounded-full" />
           </div>
           <hr className="w-[500px] mx-auto  mt-4 footer_hr" />
           <div className="text-gray-300 text-[18px]  pb-20 mt-6 font-Quicksand text-center">
