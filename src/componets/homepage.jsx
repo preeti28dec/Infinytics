@@ -18,7 +18,7 @@ function HomePage() {
        <img
           src="https://www.unite.ai/wp-content/uploads/2023/06/llm.jpg"
           alt="Vercel Logo"
-          style="width: 80%;height: 400px;margin:20px auto;border-radius: 20px;"
+          className="w-[80%] h-[400px] my-5 mx-auto rounded-2xl"
       />
       
       {/* <div className="text-center mt-10">
