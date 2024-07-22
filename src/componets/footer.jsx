@@ -69,9 +69,6 @@ function Footer() {
             <div className="text-gray-300 text-[18px] font-bold font-Quicksand py-3">
             Jonai, Assam  787060
             </div>
-            <div className="text-gray-300 text-[18px] font-bold font-Quicksand py-3">
-                sunaram@gmail.com 
-            </div>
           </div>
         </div>
         <div className="">
