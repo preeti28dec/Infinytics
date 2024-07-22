@@ -40,7 +40,7 @@ function Services() {
               <div className='icon_card child'>
                 <div className=' flex justify-center'><img src='../images/icon4.png' alt='logind..' /></div>
                 <div className='text-center mt-6  text-sm md:text-xl sm:text-2xl font-Quicksand font-bold  text-[#1D1D1D]'>Quality and Security</div>
-                <p className='text-[14px]'></p>             
+                <p className='text-[14px]'>We ensure top-notch quality and security in our LLM development through rigorous testing, advanced encryption, and regular audits, providing reliable and secure language model solutions.</p>             
               </div>
               <div className='icon_card child'>
                 <div className=' flex justify-center'><img src='../images/icon3.png' alt='logind..' /></div>
