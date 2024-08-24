@@ -2,7 +2,7 @@
 import {AiOutlineMenu} from 'react-icons/ai'
 import { slide as Menu } from 'react-burger-menu'
 const HamburgerMenu = () => (
-    <div className='p-2 '>
+    <div className=' '>
         <Menu customBurgerIcon={<AiOutlineMenu />} width={'auto'} className='left-0 top-12' >
             <Links />
         </Menu>
@@ -23,11 +23,6 @@ export const Links = () => (<>
     <div>
         <a href="#services" className='font-font-normal text-[18px] font-Quicksand' >
             Services
-        </a>
-    </div>
-    <div >
-        <a href="#project" className='font-font-normal text-[18px] font-Quicksand' >
-            Project
         </a>
     </div>
 </>)

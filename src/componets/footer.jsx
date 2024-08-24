@@ -8,15 +8,10 @@ function Footer() {
   return (
     <footer className=" bg-[#383638]">
       <div className="container mx-auto px-6 pt-2 sm:pt-6">
-        <div className="flex flex-col sm:flex-row justify-between gap-12 flex-wrap my-6">
-          <div className="w-[fit-content] flex bg-white rounded-lg mt-4 px-6 py-3 sm:mb-[230px]">
+        <div className="flex flex-col sm:flex-row justify-between  flex-wrap my-6">
+          <div className="flex bg-white rounded-lg mt-4 px-6 py-3 sm:mb-[230px]">
             <div className="flex items-center">
-              <div className="mt-2 mx-2">
-                <img src="../images/logoo.svg" width={40} alt="logo-error" />
-              </div>
-              <div className="mt-1 font-semibold text-[20px] font-Quicksand ">
-                Infinytics
-              </div>
+            <img src="../images/Infinytics2.svg" width={100} alt="logo-error" />
             </div>
           </div>
           <div>
@@ -47,10 +42,6 @@ function Footer() {
           <div>
             <div className="text-white text-[22px] font-bold font-Quicksand py-3">
               Contact{" "}
-            </div>
-            <div className="text-gray-300 text-[18px] font-bold font-Quicksand py-3">
-              {" "}
-              (+62) 893912392190
             </div>
             <div className="text-gray-300 text-[18px] font-bold font-Quicksand py-3">
              info@infinytics.com

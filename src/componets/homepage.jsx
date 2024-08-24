@@ -2,7 +2,7 @@ import React from "react";
 
 function HomePage() {
   return (
-    <section className="pt-[60px]">
+    <section className="">
       <div className="grid justify-items-center">
         <div className="home_text font-Nunito font-extrabold text-center text-[#1D1D1DD] text-[50px] max-w-[780px] max-auto">
           Elevate Your Software with AI Introducing Infinytics
@@ -18,7 +18,7 @@ function HomePage() {
        <img
           src="https://www.unite.ai/wp-content/uploads/2023/06/llm.jpg"
           alt="Vercel Logo"
-          className="w-[80%] h-[400px] my-5 mx-auto rounded-2xl"
+          className="w-[80%] h-[400px] my-20 mx-auto rounded-2xl"
       />
       
       {/* <div className="text-center mt-10">
