@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Services() {
   return (
     <div className='container mx-auto mt-20  sm:py-20 px-6' id='services'>

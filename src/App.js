@@ -4,14 +4,13 @@ import HomePage from './componets/homepage';
 import About from './componets/about';
 import Services from './componets/services';
 import Portfolio from './componets/portfolio';
-import Testimonial from './componets/testimonial';
 import Getstart from './componets/getstart';
 import Footer from './componets/footer';
 import './App.css';
 function App() {
   return (
     <div className="App">
-       <Header />
+      <Header /> 
       <HomePage />
       <About />
       <Services />
