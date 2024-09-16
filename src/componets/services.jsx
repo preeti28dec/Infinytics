@@ -46,7 +46,6 @@ function Services() {
           <div className='sm:my-6 my-4 font-Nunito font-bold text-[24px] sm:text-5xl text-[#1D1D1D] '>
             Our Services
           </div>
-          <div className=' font-Quicksand font-normal text-[14px] sm:text-[20px] text-[#464646]'>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</div>
         </div>
       </div>
 
