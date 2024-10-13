@@ -5,7 +5,7 @@ function HomePage() {
     <section className="">
       <div className="grid justify-items-center">
         <div className="home_text font-Nunito font-extrabold text-center text-[#1D1D1DD] text-[50px] max-w-[780px] max-auto">
-          Elevate Your Software with AI <div>Introducing Infinytics</div>
+          <div>Elevate Your Software with AI </div><div>Introducing Infinytics</div>
         </div>
         <div className="mt-4 sm:mt-12 mx-2 font-Nunito opacity-[0.6] font-normal text-[#464646] text-center text-[16px] sm:py-2 sm:text-[20px] max-w-[780px] max-auto">
           Infinytics is a pioneering software development company specializing
