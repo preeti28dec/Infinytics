@@ -1,22 +1,20 @@
 import React from 'react';
-import Header from './componets/header';
-import HomePage from './componets/homepage';
-import About from './componets/about';
-import Services from './componets/services';
-import Portfolio from './componets/portfolio';
-import Getstart from './componets/getstart';
-import Footer from './componets/footer';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './componets/home';
+import Policy from './componets/policy';
+import TermsCondition from './componets/terms-condition';
+
 function App() {
   return (
     <div className="App">
-      <Header /> 
-      <HomePage />
-      <About />
-      <Services />
-      <Portfolio />
-      <Getstart />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/policy" element={<Policy />} />
+          <Route path="/terms-condition" element={<TermsCondition />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
