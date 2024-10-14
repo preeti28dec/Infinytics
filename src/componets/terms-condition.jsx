@@ -3,64 +3,72 @@ import React from 'react'
 function TermsCondition() {
     return (
         <div class="policy">
-            <h2>Terms & Condition for Infinytics</h2>
-            <p>At Website Name, accessible at Website.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Website Name and how we use it.
+           <h2>Terms and Conditions</h2>
 
-                If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at Email@Website.com
+<h2>1. Agreement to Terms</h2>
+<p>
+By engaging Infinytics we for software development services, you agree to these Terms and Conditions. These terms apply to all services provided by us unless specifically overridden by a written agreement.
+</p>
 
-                This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Website Name. This policy is not applicable to any information collected offline or via channels other than this website.
-            </p>
+<h2>2. Services</h2>
+<p>
+We agree to provide software development services as described in the Project Proposal or Scope of Work document, which will outline the deliverables, timelines, and payment terms. Any additional services requested by the Client that are not covered in the original agreement will be subject to additional fees.
+</p>
 
-            <h2>Consent</h2>
-            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+<h2>3. Project Timeline and Milestones</h2>
+<p>
+All project timelines and delivery dates are estimates unless otherwise agreed in writing. We will make reasonable efforts to meet the agreed-upon deadlines. However, delays caused by the Client, including but not limited to delayed feedback, additional requests, or lack of resources, may result in the extension of timelines.
+</p>
 
-            <h2>Information we collect</h2>
-            <p>
-                The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+<h2>4. Client Responsibilities</h2>
+<p>
+The Client agrees to provide all necessary information, resources, and feedback required for the successful completion of the project. Failure to provide required materials or feedback in a timely manner may result in delays for which we will not be responsible.
+</p>
 
-                If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
+<h2>5. Payment Terms</h2>
+<p>
+Fees for services will be detailed in the Project Proposal or Scope of Work. The Client agrees to make payments according to the agreed-upon schedule. Late payments may be subject to interest or penalties. We reserve the right to suspend work if payments are not made on time.
+</p>
 
-                When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
+<h2>6. Intellectual Property Rights</h2>
+<p>
+Upon full payment of the project fees, the Client will have ownership of the software deliverables and associated intellectual property rights. We retain ownership of any pre-existing proprietary code, libraries, or tools used during the project unless otherwise agreed in writing.
+</p>
 
-            </p>
-            <h2>How we use your information</h2>
-            <ul>
-                We use the information we collect in various ways, including to:
-                <li>Provide, operate, and maintain our website</li>
-                <li>Improve, personalize, and expand our website</li>
-                <li>Understand and analyze how you use our website</li>
-                <li>Develop new products, services, features, and functionality</li>
-                <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes
-                </li><li>Send you emails</li>
-                <li> Find and prevent fraud</li>
-            </ul>
-            <h2>Log Files</h2>
-            <p>Website Name follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+<h2>7. Confidentiality</h2>
+<p>
+Both parties agree to maintain the confidentiality of any proprietary information exchanged during the course of the project. This includes technical details, client information, business plans, and any other sensitive data.
+</p>
 
-            <h2>Cookies and Web Beacons</h2>
-            <p>Like any other website, Website Name uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+<h2>8. Warranty and Support</h2>
+<p>
+We will make reasonable efforts to ensure that the software functions as specified in the Project Proposal. However, we do not guarantee that the software will be free from bugs or errors. After the delivery of the project, we may provide a limited warranty period for bug fixes or support, which will be detailed in the agreement. Ongoing maintenance or support will require a separate contract or retainer.
+</p>
 
-            <h2>GDPR Privacy Policy (Data Protection Rights)</h2>
-            <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+<h2>9. Limitations of Liability</h2>
+<p>
+We will not be liable for any indirect, incidental, or consequential damages arising from the use or inability to use the software, including loss of profits, data, or other intangible losses. Our liability will be limited to the total amount paid by the Client for the specific project.
+</p>
 
-                The right to access - You have the right to request copies of your personal data. We may charge you a small fee for this service.
+<h2>10. Termination</h2>
+<p>
+Either party may terminate the agreement if the other party breaches any material term and fails to remedy the breach within 14 days of written notice. Upon termination, the Client will be responsible for paying for any completed work and any other outstanding fees.
+</p>
 
-                The right to rectification - You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+<h2>11. Amendments</h2>
+<p>
+We reserve the right to modify these Terms and Conditions at any time. The Client will be notified of any changes, and continued use of our services following such modifications will constitute acceptance of the revised terms.
+</p>
 
-                The right to erasure - You have the right to request that we erase your personal data, under certain conditions.
+<h2>12. Governing Law</h2>
+<p>
+These terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising from this agreement will be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+</p>
 
-                The right to restrict processing - You have the right to request that we restrict the processing of your personal data, under certain conditions.
-
-                The right to object to processing - You have the right to object to our processing of your personal data, under certain conditions.
-
-                The right to data portability - You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
-
-                If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
-
-            <h2>Children's Information</h2>
-            <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
-
-                Website Name does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+<h2>13. Entire Agreement</h2>
+<p>
+These Terms and Conditions, along with the Project Proposal, represent the entire agreement between the parties and supersede any prior agreements or understandings, whether written or oral.
+</p>
         </div>
 
     )
