@@ -7,8 +7,7 @@ function About() {
       <div className='flex items-center main_about'>
         <div className='main_about_image w-[42%]  relative'> <img src='../images/about_us_img.png' alt='about us is img not loding..' /></div>
         <div className='about_text_card w-1/2 sm:pl-10'>
-          <div className='text-start font-Quicksand text-[14px] sm:text-[20px] text-[#464646] '>We believe in creating an environment where innovation thrives, and every team member feels valued. We are more than just a software development company — we are a community of passionate problem-solvers, tech enthusiasts, and creative thinkers.</div>
-          <div className='text-start font-Quicksand text-[14px] sm:text-[20px] text-[#464646] '>Whether it's collaborating on cutting-edge projects, exploring the latest in technology, or building solutions that make a real-world impact, life at Infinytics is dynamic, rewarding, and full of opportunities for growth. Our culture emphasizes continuous learning, teamwork, and a healthy work-life balance.</div>
+          <div className='text-start font-Quicksand text-[14px] sm:text-[20px] text-[#464646] '>we foster innovation and value every team member. More than a software company, we're a community of passionate problem-solvers and tech enthusiasts. From collaborating on cutting-edge projects to creating impactful solutions, life here is dynamic, rewarding, and growth-focused. Our culture promotes continuous learning, teamwork, and work-life balance.</div>
         </div>
       </div>
     </div>
