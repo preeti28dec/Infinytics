@@ -7,7 +7,7 @@ function About() {
       <div className='flex items-center main_about'>
         <div className='main_about_image w-[42%]  relative'> <img src='../images/about_us_img.png' alt='about us is img not loding..' /></div>
         <div className='about_text_card w-1/2 sm:pl-10'>
-          <div className='text-start font-Quicksand text-[14px] sm:text-[20px] text-[#464646] '>we foster innovation and value every team member. More than a software company, we're a community of passionate problem-solvers and tech enthusiasts. From collaborating on cutting-edge projects to creating impactful solutions, life here is dynamic, rewarding, and growth-focused. Our culture promotes continuous learning, teamwork, and work-life balance.</div>
+          <div className='text-start font-Quicksand text-[14px] sm:text-[20px] text-[#464646] '>We foster innovation and value every team member. More than a software company, we're a community of passionate problem-solvers and tech enthusiasts. From collaborating on cutting-edge projects to creating impactful solutions, life here is dynamic, rewarding, and growth-focused. Our culture promotes continuous learning, teamwork, and work-life balance.</div>
         </div>
       </div>
     </div>
